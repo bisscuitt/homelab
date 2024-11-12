@@ -1,0 +1,17 @@
+[global]
+keyboard = "en-us"
+country = "au"
+fqdn = "larry.tekuiti.lan"
+mailto = "bisscuitt@gmail.com"
+timezone = "Australia/Sydney"
+root_password = "!!RESETONFIRSTBOOT!!"
+root_ssh_keys = [
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEwVZGJjtkPLKSlrq4evdB9vw4XA69EZ8/kvXdLXVeNf bisscuitt_2023"
+]
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "xfs"
+disk_list = ["sda"]
